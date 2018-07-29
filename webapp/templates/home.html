@@ -1,0 +1,39 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>home</title>
+		<style>
+			body{
+				background-image:url('../static/images/0.jpg');				
+				position:fixed;
+				background-position:fixed;
+				background-repeat:repeat;
+			}
+		</style>
+	</head>
+
+	<body>
+		<h1>Hello Flask</h1>
+		<hr/>
+		
+		<table border = "1" style="text-align:center"> 
+			<tr>
+				<th>userid</th>
+				<th>{{userid}}</th>
+			</tr>
+			<tr>
+				<th>mysql_version</th>
+				<th>{{mysql_version}}</th>
+			</tr>
+			<tr>
+				<th>linux_version</th>
+				<th>{{linux_version}}</th>
+			</tr>
+			<tr>
+				<th>eth0_HW</th>
+				<th>{{eth0_HW}}</th>
+			</tr>
+		</table>
+	</body>
+</html>
